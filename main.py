@@ -4,8 +4,8 @@ gb = dict() # gameboard = {'11':' ', '12':' ', ...}
 
 # Assigns space to each position on board
 def setgameboard():
-    for i in range(4):
-        for j in range(4):
+    for i in range(1,4):
+        for j in range(1,4):
             s = str(i)+str(j)
             gb[s] = ' '
 
